@@ -1,0 +1,142 @@
+/* Styling first page*/
+body{
+    background-color: black;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  #logo{
+      margin-left: 5%;
+      width: 78.88px;
+      height: 78.88px;
+      float: left;
+  }
+  .child{
+      width: 15%;
+      float: right;
+      text-align: center;
+  }
+  #home{
+      color: tomato;
+  }
+  #about{
+      color:rgb(51, 0, 255);
+  }
+  #contact{
+      color: aliceblue;
+  }
+  #faq{
+      color: greenyellow;
+  }
+  .clearfix{
+      clear: both;
+  }
+  .body_img{
+      height: 100%;
+      background-image: url("sailboat.jpg");
+      background-size: cover;    
+  }
+  .center {
+      margin: auto;
+      width: 60%;
+      text-align: center;
+      padding: 250px 0;
+  }
+  #welcome{
+      font-size: 125px;
+      font-weight: bolder;
+      padding-bottom: 20px;
+  }
+  #msp{
+      font-size: 60px;
+      padding-bottom: 20px;
+  }
+  #discover{
+      font-size: 45px;
+      font-weight: bold;
+      padding: 25px;
+      border: 5px solid black;
+      border-radius: 75px;
+  }
+  /*Styling second page*/
+  
+  #title{
+      text-align:center;
+      color: greenyellow;
+      font-size: 45px;
+  }
+   .boxMembers{
+     width: 70%;
+     margin: auto;
+  } 
+  .members{
+      width: 24%;
+      float: left;
+      margin: auto;
+      text-align: center;
+  }
+  /*all the images*/
+  .avatar{
+      width: 120px;
+      height: 120px;
+      border: 5px solid black;
+      border-radius: 50%;
+  }
+  /*each image*/
+  #a1{
+      outline: 7px solid tomato ;
+  }
+  #a2{
+      outline: 7px solid rgb(51, 0, 255) ;
+  }
+  #a3{
+      outline: 7px solid  aliceblue ;
+  }
+  #a4{
+      outline: 7px solid   greenyellow ;
+  }
+  /*the name*/
+  h2{
+      color: aliceblue;
+      font-size: 30px;
+  }
+  /*each job title*/
+  #job1{
+      color: tomato;
+  }
+  #job2{
+      color:rgb(51, 0, 255);
+  }
+  #job3{
+      color: aliceblue;
+  }
+  #job4{
+      color: greenyellow;
+  }
+  #para{
+    color: tomato;
+    font-size: 40px;
+    text-align: center;
+  }
+  .parent2{
+      width: 100%;
+  }
+  .options{
+      width: 30%;
+      float: left;
+      margin: auto;
+      padding-left:30px ;
+      padding-bottom: 30px;
+      text-align: center;
+  
+  }
+  /*each option*/
+  #tech1{
+      border-left: 20px solid  greenyellow;
+  }
+  #tech2{
+      border-left: 20px solid  rgb(51, 0, 255);
+  }
+  #tech3{
+      border-left: 20px solid  tomato;
+  }
